@@ -1,0 +1,97 @@
+.news__part {
+    h6 {
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+        margin: 0;
+        margin-bottom: 27px;
+
+        span {
+            color: #60B021;
+        }
+    }
+
+    .news__cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 419px;
+        margin-bottom: 40px;
+
+        section {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height: 100%;
+
+            .news__info {
+                width: 100%;
+                padding: 21px 25px 18px;
+                box-sizing: border-box;
+
+                h5,
+                h4,
+                p {
+                    margin: 0;
+                }
+
+                h5 {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #75758A;
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #000000;
+                    margin-bottom: 8px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #75758A;
+                }
+            }
+
+            .news__img {
+                img {
+                    display: block;
+                }
+            }
+        }
+
+        section:nth-child(2) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .news__button {
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+
+        button {
+            width: 100%;
+            padding: 17px 0;
+            background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+            border-radius: 100px;
+            outline: 0;
+            border: 0;
+            cursor: pointer;
+
+            a {
+                font-weight: 700;
+                font-size: 14px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

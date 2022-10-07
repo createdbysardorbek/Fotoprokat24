@@ -607,4 +607,100 @@ header .searchSign img:first-child {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.news__part h6 {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0;
+  margin-bottom: 27px;
+}
+.news__part h6 span {
+  color: #60B021;
+}
+.news__part .news__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 419px;
+  margin-bottom: 40px;
+}
+.news__part .news__cards section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 350px;
+  height: 100%;
+}
+.news__part .news__cards section .news__info {
+  width: 100%;
+  padding: 21px 25px 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.news__part .news__cards section .news__info h5,
+.news__part .news__cards section .news__info h4,
+.news__part .news__cards section .news__info p {
+  margin: 0;
+}
+.news__part .news__cards section .news__info h5 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #75758A;
+  margin-bottom: 5px;
+}
+.news__part .news__cards section .news__info h4 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.news__part .news__cards section .news__info p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #75758A;
+}
+.news__part .news__cards section .news__img img {
+  display: block;
+}
+.news__part .news__cards section:nth-child(2) {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+.news__part .news__button {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.news__part .news__button button {
+  width: 100%;
+  padding: 17px 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8EE902), to(#4F9C2C));
+  background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+  border-radius: 100px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.news__part .news__button button a {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
