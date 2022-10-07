@@ -8,6 +8,7 @@ body {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -206,6 +207,9 @@ header .searchSign img:first-child {
   color: #000000;
   margin-bottom: 27px;
 }
+.pricing h3 span {
+  color: #60B021;
+}
 .pricing .price__cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -337,4 +341,55 @@ header .searchSign img:first-child {
 }
 .pricing .price__cards article .buttons .button__2 button img {
   margin-right: 9px;
+}
+
+.text {
+  width: 570px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.text h4 {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.text h4 span {
+  color: #60B021;
+}
+.text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #75758A;
+  margin-top: 24px;
+}
+.text p span {
+  color: #000000;
+}
+.text .button__s button {
+  width: 260px;
+  padding: 17px 0;
+  border-radius: 100px;
+  border: 0;
+  outline: 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.text .button__s button:first-child {
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8EE902), to(#4F9C2C));
+  background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+  margin-right: 20px;
+}
+.text .button__s button:last-child {
+  color: #000000;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
 }/*# sourceMappingURL=style.css.map */
