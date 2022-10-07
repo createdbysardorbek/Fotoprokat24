@@ -519,4 +519,92 @@ header .searchSign img:first-child {
 .categories .bottom__part .photo4 {
   width: 350px;
   background-image: url(../img/categoryImg/photo4.jpg);
+}
+
+.offer__part {
+  width: 100%;
+  background: #F5F5F5;
+  padding-top: 96px;
+  padding-bottom: 100px;
+  margin-bottom: 96px;
+}
+.offer__part .title {
+  margin-bottom: 37px;
+}
+.offer__part .title h5 {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.offer__part .title h5 span {
+  color: #60B021;
+}
+.offer__part .title h6 {
+  width: 470px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #75758A;
+  margin: 0 auto;
+  text-align: center;
+}
+.offer__part .offer__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 155px;
+  margin-bottom: 40px;
+}
+.offer__part .offer__cards article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 255px;
+  height: 100%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 25px 30px 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.offer__part .offer__cards article h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.offer__part .offer__cards article .offer__img {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.offer__part .offer__button {
+  width: 300px;
+  margin: 0 auto;
+}
+.offer__part .offer__button button {
+  width: 100%;
+  padding: 17px 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8EE902), to(#4F9C2C));
+  background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+  border-radius: 100px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+.offer__part .offer__button button a {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
