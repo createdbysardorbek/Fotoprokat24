@@ -1,14 +1,16 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
-    padding: 18px 27px 9px 135px;
+    height: 75px;
     box-sizing: border-box;
+    padding-left: 135px;
 
     .logo {
         display: flex;
         align-items: center;
-        width: max-content;
+        margin-right: 134px;
 
         img {
             &:first-child {
@@ -17,58 +19,72 @@ header {
         }
     }
 
-    .links {
-        display: flex;
-        align-items: center;
-        width: max-content;
+
+    nav {
+        width: 478px;
         height: 100%;
+        margin-right: 107px;
 
-        .contact {
-            margin-right: 46px;
 
-            h3 {
+        ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+
+            li {
                 font-weight: 700;
-                font-size: 16px;
+                font-size: 14px;
+                text-transform: uppercase;
                 color: #000000;
-                margin: 0;
+            }
+        }
+    }
+
+
+
+
+    .carts {
+        width: 302px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 30px;
+
+        div {
+
+
+            position: relative;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            border-left: 1px solid #EFEFEF;
+            border-right: 1px solid #EFEFEF;
+
+            img {
+                padding-left: 27px;
+                padding-right: 27px;
             }
 
             span {
-                font-weight: 400;
-                font-size: 14px;
-                color: #75758A;
+                position: absolute;
+                top: -14px;
+                right: -10px;
             }
+
         }
+    }
 
-        .carts {
-            margin-right: 70px;
-
-            div {
-                position: relative;
-
-                &:not(:last-child) {
-                    margin-right: 25px;
-                }
-            }
-
-            a {
-                display: flex;
-
-
-                span {
-                    position: absolute;
-                    top: -14px;
-                    right: -10px;
-                }
-
-            }
-        }
-
-        .searchSign {
-            img {
-                &:first-child {
-                    margin-right: 58px;
-                }
+    .searchSign {
+        img {
+            &:first-child {
+                margin-right: 58px;
             }
         }
     }
