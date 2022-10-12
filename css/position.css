@@ -139,15 +139,13 @@ header .header__content .carts a span {
   display: flex;
   width: 90%;
   height: 1594px;
-  background-color: red;
   border-top: 1px solid #EFEFEF;
   border-bottom: 1px solid #EFEFEF;
   margin-bottom: 500px;
 }
 .info .left__part {
-  width: 35;
+  width: 50%;
   height: 100%;
-  background-color: blue;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-top: 50px;
@@ -221,9 +219,8 @@ header .header__content .carts a span {
   margin-left: 0;
 }
 .info .right__part {
-  width: 65%;
+  width: 50%;
   height: 100%;
-  background-color: yellow;
   padding-top: 50px;
   padding-left: 50px;
   -webkit-box-sizing: border-box;
@@ -301,7 +298,6 @@ header .header__content .carts a span {
 }
 .info .right__part .specifications {
   width: 635px;
-  background-color: #4F9C2C;
   margin-bottom: 25px;
 }
 .info .right__part .specifications section {
@@ -316,7 +312,6 @@ header .header__content .carts a span {
           align-items: center;
   border-bottom: 1px solid #EFEFEF;
   width: 100%;
-  background-color: red;
   padding: 14px 0;
 }
 .info .right__part .specifications section h3 {
@@ -339,7 +334,7 @@ header .header__content .carts a span {
       -ms-flex-pack: center;
           justify-content: center;
   width: 635px;
-  background-color: red;
+  margin-bottom: 45px;
 }
 .info .right__part .button button {
   width: 160px;
@@ -354,4 +349,216 @@ header .header__content .carts a span {
   font-size: 14px;
   text-transform: uppercase;
   color: #000000;
+}
+.info .right__part .equipment {
+  width: 635px;
+  margin-bottom: 45px;
+}
+.info .right__part .equipment h5 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 21px;
+}
+.info .right__part .equipment .titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 635px;
+}
+.info .right__part .equipment .titles div {
+  width: 305px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14px 0;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+.info .right__part .equipment .titles div h6 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  margin: 0;
+}
+.info .right__part .equipment .titles div .green {
+  color: #60B021;
+  margin-right: 10px;
+}
+.info .right__part .equipment .titles2 {
+  margin-bottom: 25px;
+}
+.info .right__part .equipment .titles2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 14px 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+.info .right__part .equipment .titles2 div h6 {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+}
+.info .right__part .equipment .titles2 div .green {
+  color: #60B021;
+  margin-right: 10px;
+}
+.info .right__part .equipment .btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.info .right__part .equipment .btn button {
+  width: 160px;
+  padding: 12px 0;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+  border: 0;
+  outline: 0;
+}
+.info .right__part .pricing {
+  width: 635px;
+  margin-bottom: 47px;
+}
+.info .right__part .pricing h5 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 21px;
+}
+.info .right__part .pricing .pricing__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.info .right__part .pricing .pricing__cards article {
+  padding: 23px 42px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+.info .right__part .pricing .pricing__cards article h6 {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.info .right__part .pricing .pricing__cards article p {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #75758A;
+  margin: 0;
+}
+.info .right__part .pricing .pricing__btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.info .right__part .pricing .pricing__btn button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 260px;
+  padding: 17px 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8EE902), to(#4F9C2C));
+  background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+  border-radius: 100px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+.info .right__part .pricing .pricing__btn button img {
+  margin-right: 7px;
+}
+.info .right__part .pricing .pricing__btn button span {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.info .right__part .desc {
+  width: 635px;
+  margin-bottom: 12px;
+}
+.info .right__part .desc p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #75758A;
+  margin: 0;
+}
+.info .right__part table {
+  width: 635px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-collapse: collapse;
+}
+.info .right__part table tr th {
+  font-weight: 400;
+  font-size: 14px;
+  color: #75758A;
+  text-align: start;
+  padding: 15px;
+  border-bottom: 1px solid #EFEFEF;
+}
+.info .right__part table tr td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  padding: 14px 20px;
+}
+.info .right__part table tr td span {
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #60B021;
+}
+.info .right__part table tr:not(:last-child) {
+  border-bottom: 1px solid #EFEFEF;
 }/*# sourceMappingURL=position.css.map */
