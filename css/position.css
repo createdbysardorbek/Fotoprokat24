@@ -141,7 +141,6 @@ header .header__content .carts a span {
   height: 1594px;
   border-top: 1px solid #EFEFEF;
   border-bottom: 1px solid #EFEFEF;
-  margin-bottom: 500px;
 }
 .info .left__part {
   width: 50%;
@@ -222,7 +221,6 @@ header .header__content .carts a span {
   width: 50%;
   height: 100%;
   padding-top: 50px;
-  padding-left: 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -561,4 +559,94 @@ header .header__content .carts a span {
 }
 .info .right__part table tr:not(:last-child) {
   border-bottom: 1px solid #EFEFEF;
+}
+
+.pricing2 {
+  width: 100%;
+  padding: 74px 0px 21px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 80px;
+}
+.pricing2 .description p {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 26px;
+}
+.pricing2 .pricing2__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.pricing2 .pricing2__cards section {
+  position: relative;
+  width: 255px;
+  padding: 28px 20px 21px 17px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.pricing2 .pricing2__cards section .imgIcons {
+  position: absolute;
+  top: 21px;
+  right: 18px;
+}
+.pricing2 .pricing2__cards section .canon {
+  margin-bottom: 38px;
+}
+.pricing2 .pricing2__cards section .sony {
+  margin-bottom: 32px;
+}
+.pricing2 .pricing2__cards section .eoskit {
+  margin-bottom: 0px;
+}
+.pricing2 .pricing2__cards section .fujifilm {
+  margin-bottom: 29px;
+}
+.pricing2 .pricing2__cards section .text h6 {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+  color: #000000;
+  margin-bottom: 0;
+}
+.pricing2 .pricing2__cards section .text span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #75758A;
+}
+.pricing2 .pricing2__cards section h5 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #60B021;
+  margin: 0;
+  margin-bottom: 13px;
+}
+.pricing2 .pricing2__cards section .pricing2__btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.pricing2 .pricing2__cards section .pricing2__btn button {
+  width: 215px;
+  padding: 12px 0;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
 }/*# sourceMappingURL=position.css.map */
