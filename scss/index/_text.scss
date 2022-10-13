@@ -56,3 +56,30 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .text {
+        width: 100%;
+        margin: 0;
+
+        h4 {
+            width: 100%;
+        }
+
+        p {
+            width: 100%;
+        }
+
+        .button__s {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+
+            button:first-child {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
