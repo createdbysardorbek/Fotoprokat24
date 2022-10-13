@@ -109,10 +109,74 @@ header .carts a span {
   top: -14px;
   right: -10px;
 }
+header .logoMobile {
+  display: none;
+}
 header .searchSign img:first-child {
   margin-right: 58px;
 }
+header .lockedMobile {
+  display: none;
+}
+header .menuMobile {
+  display: none;
+}
 
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 20px;
+  }
+  header .logo {
+    display: none;
+  }
+  header nav {
+    display: none;
+    margin-right: 0;
+  }
+  header .carts {
+    width: 88px;
+  }
+  header .carts a {
+    margin-right: 0;
+    border: 0;
+  }
+  header .carts a img {
+    width: 16px;
+    padding: 0;
+  }
+  header .searchSign {
+    display: none;
+  }
+  header .logoMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .iconsMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 121px;
+  }
+  header .iconsMobile .lockedMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .iconsMobile .searchMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .iconsMobile .menuMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 .banner {
   position: relative;
   display: -webkit-box;

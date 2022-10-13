@@ -44,9 +44,6 @@ header {
         }
     }
 
-
-
-
     .carts {
         width: 302px;
         height: 100%;
@@ -81,10 +78,80 @@ header {
         }
     }
 
+    .logoMobile {
+        display: none;
+    }
+
     .searchSign {
         img {
             &:first-child {
                 margin-right: 58px;
+            }
+        }
+    }
+
+    .lockedMobile {
+        display: none;
+    }
+
+    .menuMobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 20px;
+
+        .logo {
+            display: none;
+        }
+
+
+        nav {
+            display: none;
+            margin-right: 0;
+        }
+
+        .carts {
+            width: 88px;
+
+            a {
+                margin-right: 0;
+                border: 0;
+
+                img {
+                    width: 16px;
+                    padding: 0;
+                }
+            }
+        }
+
+        .searchSign {
+            display: none;
+        }
+
+        .logoMobile {
+            display: flex;
+        }
+
+
+
+        .iconsMobile {
+            display: flex;
+            justify-content: space-between;
+            width: 121px;
+
+            .lockedMobile {
+                display: flex;
+            }
+
+            .searchMobile {
+                display: flex;
+            }
+
+            .menuMobile {
+                display: flex;
             }
         }
     }
