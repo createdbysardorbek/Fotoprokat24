@@ -42,3 +42,23 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        height: 375px;
+        background-position: center;
+        padding: 20px;
+
+        div {
+            left: 5px;
+            width: 30px;
+            height: 30px;
+        }
+
+        p {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 42px;
+        }
+    }
+}
