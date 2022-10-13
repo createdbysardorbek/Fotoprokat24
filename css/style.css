@@ -480,6 +480,39 @@ header .menuMobile {
   margin-right: 9px;
 }
 
+@media only screen and (max-width: 600px) {
+  .pricing {
+    width: 100%;
+    margin-bottom: 93px;
+    background-color: red;
+  }
+  .pricing h3 {
+    width: 100%;
+  }
+  .pricing .price__cards {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: yellow;
+  }
+  .pricing .price__cards article {
+    position: relative;
+    width: 350px;
+    border: 1px solid #EFEFEF;
+  }
+  .pricing .price__cards article .left {
+    display: none;
+  }
+  .pricing .price__cards article .right {
+    display: none;
+  }
+}
 .text {
   width: 570px;
   margin: 0 auto;

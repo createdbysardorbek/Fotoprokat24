@@ -148,3 +148,39 @@
         }
     }
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .pricing {
+        width: 100%;
+        margin-bottom: 93px;
+        background-color: red;
+
+        h3 {
+            width: 100%;
+        }
+
+        .price__cards {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: yellow;
+
+            article {
+                position: relative;
+                width: 350px;
+                border: 1px solid #EFEFEF;
+
+                .left {
+                    display: none;
+                }
+
+                .right {
+                    display: none;
+                }
+            }
+        }
+    }
+}
