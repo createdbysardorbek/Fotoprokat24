@@ -45,6 +45,7 @@
                 width: 100%;
                 padding: 26px 75px 0;
                 margin-bottom: 33px;
+                box-sizing: border-box;
 
                 img {
                     width: 200px;
@@ -168,7 +169,7 @@
 
             article {
                 position: relative;
-                width: 350px;
+                width: 100%;
                 border: 1px solid #EFEFEF;
 
                 .left {
@@ -177,6 +178,27 @@
 
                 .right {
                     display: none;
+                }
+
+                .item__img {
+                    width: 100%;
+                    padding: 0;
+                }
+
+                .prices {
+                    width: 100%;
+                    justify-content: space-around;
+                    gap: 10px;
+                    flex-wrap: wrap;
+                    height: fit-content;
+                }
+
+                .buttons {
+                    flex-direction: row;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    width: 100%;
                 }
             }
         }

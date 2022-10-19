@@ -89,7 +89,6 @@ footer {
 @media only screen and (max-width: 600px) {
     footer {
         width: 100%;
-        background-color: red;
 
         .footer__content {
             width: 100%;
@@ -107,7 +106,6 @@ footer {
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
-                background-color: yellow;
                 flex-wrap: wrap;
 
                 img {
@@ -121,8 +119,6 @@ footer {
                 width: 50%;
                 height: fit-content;
                 flex-wrap: wrap;
-
-                background-color: green;
 
                 img {
                     width: 60px;

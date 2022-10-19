@@ -110,6 +110,12 @@
             section:nth-child(2) {
                 flex-direction: column;
             }
+
+            .news__img {
+                img {
+                    width: 100%;
+                }
+            }
         }
     }
 }

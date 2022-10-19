@@ -379,6 +379,8 @@ header .menuMobile {
   width: 100%;
   padding: 26px 75px 0;
   margin-bottom: 33px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .pricing .price__cards article .item__img img {
   width: 200px;
@@ -501,7 +503,7 @@ header .menuMobile {
   }
   .pricing .price__cards article {
     position: relative;
-    width: 350px;
+    width: 100%;
     border: 1px solid #EFEFEF;
   }
   .pricing .price__cards article .left {
@@ -509,6 +511,34 @@ header .menuMobile {
   }
   .pricing .price__cards article .right {
     display: none;
+  }
+  .pricing .price__cards article .item__img {
+    width: 100%;
+    padding: 0;
+  }
+  .pricing .price__cards article .prices {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 10px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .pricing .price__cards article .buttons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
   }
 }
 .text {
@@ -1036,6 +1066,9 @@ header .menuMobile {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .news__part .news__cards .news__img img {
+    width: 100%;
+  }
 }
 .contact {
   display: -webkit-box;
@@ -1100,6 +1133,9 @@ header .menuMobile {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .contact .contact__cards {
     display: -webkit-box;
@@ -1326,7 +1362,6 @@ footer .footer__content section {
 @media only screen and (max-width: 600px) {
   footer {
     width: 100%;
-    background-color: red;
   }
   footer .footer__content {
     width: 100%;
@@ -1350,7 +1385,6 @@ footer .footer__content section {
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    background-color: yellow;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -1369,7 +1403,6 @@ footer .footer__content section {
     height: fit-content;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    background-color: green;
   }
   footer .footer__content .cardsBank img {
     width: 60px;

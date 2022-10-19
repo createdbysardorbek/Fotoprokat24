@@ -56,6 +56,8 @@
     .contact {
         width: 100%;
         height: fit-content;
+        padding: 10px;
+        box-sizing: border-box;
 
         .contact__cards {
             display: flex;
