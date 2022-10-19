@@ -68,6 +68,14 @@ footer {
 
         }
 
+        .sm-icons2 {
+            display: none;
+        }
+
+        .cardsBank {
+            display: none;
+        }
+
         section {
             display: flex;
             justify-content: space-between;
@@ -75,5 +83,53 @@ footer {
         }
 
 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        width: 100%;
+        background-color: red;
+
+        .footer__content {
+            width: 100%;
+            align-items: center;
+
+            ul {
+                display: none;
+            }
+
+
+
+            .sm-icons2 {
+                width: 50%;
+                height: fit-content;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                background-color: yellow;
+                flex-wrap: wrap;
+
+                img {
+                    width: 40px;
+                }
+            }
+
+            .cardsBank {
+                display: flex;
+                justify-content: space-around;
+                width: 50%;
+                height: fit-content;
+                flex-wrap: wrap;
+
+                background-color: green;
+
+                img {
+                    width: 60px;
+                }
+            }
+
+
+        }
     }
 }

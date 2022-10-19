@@ -836,6 +836,12 @@ footer .footer__content .first__block .sm-icons img {
   padding: 0;
   margin: 0;
 }
+footer .footer__content .sm-icons2 {
+  display: none;
+}
+footer .footer__content .cardsBank {
+  display: none;
+}
 footer .footer__content section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -844,4 +850,57 @@ footer .footer__content section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 251px;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    width: 100%;
+    background-color: red;
+  }
+  footer .footer__content {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer__content ul {
+    display: none;
+  }
+  footer .footer__content .sm-icons2 {
+    width: 50%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-color: yellow;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .footer__content .sm-icons2 img {
+    width: 40px;
+  }
+  footer .footer__content .cardsBank {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 50%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: green;
+  }
+  footer .footer__content .cardsBank img {
+    width: 60px;
+  }
 }/*# sourceMappingURL=position.css.map */
