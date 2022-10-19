@@ -880,6 +880,44 @@ header .menuMobile {
   color: #FFFFFF;
 }
 
+@media only screen and (max-width: 600px) {
+  .offer__part .title h6 {
+    width: 100%;
+  }
+  .offer__part .offer__cards {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 10px;
+  }
+  .offer__part .offer__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .offer__part .offer__button button {
+    width: 50%;
+  }
+}
 .news__part h6 {
   font-weight: 700;
   font-size: 18px;

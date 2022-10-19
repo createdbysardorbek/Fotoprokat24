@@ -87,3 +87,36 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .offer__part {
+
+
+        .title {
+            h6 {
+                width: 100%;
+            }
+        }
+
+        .offer__cards {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .offer__button {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            button {
+                width: 50%;
+            }
+        }
+    }
+}
