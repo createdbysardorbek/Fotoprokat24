@@ -1014,6 +1014,29 @@ header .menuMobile {
   color: #FFFFFF;
 }
 
+@media only screen and (max-width: 600px) {
+  .news__part {
+    width: 100%;
+  }
+  .news__part .news__cards {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    gap: 20px;
+  }
+  .news__part .news__cards section:nth-child(2) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;

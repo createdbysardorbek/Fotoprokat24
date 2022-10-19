@@ -95,3 +95,21 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .news__part {
+        width: 100%;
+
+        .news__cards {
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+            height: fit-content;
+            gap: 20px;
+
+            section:nth-child(2) {
+                flex-direction: column;
+            }
+        }
+    }
+}
