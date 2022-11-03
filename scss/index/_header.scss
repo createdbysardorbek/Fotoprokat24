@@ -1,157 +1,196 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
-    height: 75px;
-    box-sizing: border-box;
-    padding-left: 135px;
 
-    .logo {
-        display: flex;
-        align-items: center;
-        margin-right: 134px;
-
-        img {
-            &:first-child {
-                margin-right: 40px;
-            }
-        }
-    }
-
-
-    nav {
-        width: 478px;
-        height: 100%;
-        margin-right: 107px;
-
-
-        ul {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0;
-            margin: 0;
-
-            li {
-                font-weight: 700;
-                font-size: 14px;
-                text-transform: uppercase;
-                color: #000000;
-            }
-        }
-    }
-
-    .carts {
-        width: 302px;
-        height: 100%;
+    .container2 {
         display: flex;
         justify-content: space-between;
-        margin-right: 30px;
+        align-items: center;
+        width: 1200px;
+        margin: 0 auto;
 
-        div {
-
-
-            position: relative;
-        }
-
-        a {
-            display: flex;
-            align-items: center;
-            height: 100%;
-            border-left: 1px solid #EFEFEF;
-            border-right: 1px solid #EFEFEF;
-
-            img {
-                padding-left: 27px;
-                padding-right: 27px;
-            }
-
-            span {
-                position: absolute;
-                top: -14px;
-                right: -10px;
-            }
-
-        }
-    }
-
-    .logoMobile {
-        display: none;
-    }
-
-    .searchSign {
-        img {
-            &:first-child {
-                margin-right: 58px;
-            }
-        }
-    }
-
-    .lockedMobile {
-        display: none;
-    }
-
-    .menuMobile {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    header {
-        padding: 20px;
-
-        .logo {
+        .logoMobile {
             display: none;
         }
-
 
         nav {
-            display: none;
-            margin-right: 0;
-        }
+            width: 478px;
 
-        .carts {
-            width: 88px;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                margin: 0;
 
-            a {
-                margin-right: 0;
-                border: 0;
+                li {
+                    font-weight: 700;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    color: #000000;
+                    margin: 0;
 
-                img {
-                    width: 16px;
-                    padding: 0;
+                    &:hover {
+                        cursor: pointer;
+                        color: #555;
+                        text-decoration: underline;
+                    }
                 }
             }
         }
 
-        .searchSign {
-            display: none;
-        }
-
-        .logoMobile {
-            display: flex;
-        }
-
-
-
-        .iconsMobile {
+        .carts {
+            width: 400px;
+            height: 50px;
+            background-color: white;
             display: flex;
             justify-content: space-between;
-            width: 121px;
+            align-items: center;
 
-            .lockedMobile {
-                display: flex;
+            img {
+                transition: 0.3s;
             }
 
-            .searchMobile {
+            img:hover {
+                transform: scale(1.19);
+            }
+
+            div {
+                position: relative;
+            }
+
+            a {
                 display: flex;
+                align-items: center;
+                height: 100%;
+                border-left: 1px solid #EFEFEF;
+                border-right: 1px solid #EFEFEF;
+
+                img {
+                    padding-left: 27px;
+                    padding-right: 27px;
+                }
+
+                span {
+                    position: absolute;
+                    top: -14px;
+                    right: -10px;
+                }
+
+            }
+        }
+
+        .iconsMobile {
+
+
+            .lockedMobile {
+                display: none;
             }
 
             .menuMobile {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    header {
+        width: 100%;
+
+        .container2 {
+            width: 80%;
+
+            .logoMobile {
+                display: none;
+            }
+
+            nav {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        width: 100%;
+
+        .container2 {
+            width: 80%;
+
+
+            nav {
+                width: 478px;
+                display: none;
+            }
+
+            .carts {
+                width: 200px;
+
+                .searchSign {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        width: 100%;
+
+        .container2 {
+            width: 100%;
+
+            .logo {
+                display: none;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .carts {
+                width: 100px;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    border: 0;
+
+                    img {
+                        padding: 0;
+                    }
+
+                }
+            }
+
+            .searchSign {
+                display: none;
+            }
+
+            .logoMobile {
                 display: flex;
+            }
+
+            .iconsMobile {
+                width: 100px;
+                display: flex;
+                justify-content: space-between;
+                overflow: hidden;
+
+
+                .lockedMobile {
+                    display: flex;
+                }
+
+                .searchMobile {
+                    display: flex;
+                }
+
+                .menuMobile {
+                    display: flex;
+                }
             }
         }
     }

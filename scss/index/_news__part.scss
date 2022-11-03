@@ -85,12 +85,40 @@
             border: 0;
             cursor: pointer;
 
+            &:hover {
+                box-shadow: 0 0 50px 0px #8EE902;
+            }
+
             a {
                 font-weight: 700;
                 font-size: 14px;
                 text-align: center;
                 text-transform: uppercase;
                 color: #FFFFFF;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .news__part {
+        width: 100%;
+
+        .news__cards {
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+            height: fit-content;
+            gap: 20px;
+
+            section:nth-child(2) {
+                flex-direction: column;
+            }
+
+            .news__img {
+                img {
+                    width: 100%;
+                }
             }
         }
     }

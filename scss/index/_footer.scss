@@ -86,6 +86,50 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    footer {
+        width: 100%;
+
+        .footer__content {
+            width: 100%;
+            align-items: center;
+
+            ul {
+                display: none;
+            }
+
+
+
+            .sm-icons2 {
+                width: 50%;
+                height: fit-content;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+
+                img {
+                    width: 40px;
+                }
+            }
+
+            .cardsBank {
+                display: flex;
+                justify-content: space-around;
+                width: 50%;
+                height: fit-content;
+                flex-wrap: wrap;
+
+                img {
+                    width: 60px;
+                }
+            }
+
+
+        }
+    }
+}
+
 @media only screen and (max-width: 600px) {
     footer {
         width: 100%;

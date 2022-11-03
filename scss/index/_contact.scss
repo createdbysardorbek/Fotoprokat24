@@ -52,6 +52,25 @@
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .contact {
+        width: 100%;
+        height: fit-content;
+        padding: 50px;
+        box-sizing: border-box;
+
+        .contact__cards {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: fit-content;
+            gap: 30px;
+        }
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .contact {
         width: 100%;

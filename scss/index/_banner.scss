@@ -8,6 +8,7 @@
     background-image: url(../img/general/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top center;
     padding-left: 135px;
     padding-bottom: 50px;
 
@@ -43,9 +44,18 @@
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .banner {
+        width: 100%;
+        height: aspect-ratio;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .banner {
-        height: 375px;
+        height: aspect-ratio;
         background-position: center;
         padding: 20px;
 

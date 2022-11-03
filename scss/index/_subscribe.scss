@@ -14,6 +14,12 @@
 
             img {
                 margin-right: 10px;
+                transition: .3s;
+                cursor: pointer;
+
+                &:hover {
+                    transform: translateY(-10px)
+                }
             }
 
             p {
@@ -49,12 +55,17 @@
                 background: #4F9C2C;
                 outline: 0;
                 border: 0;
+                box-sizing: border-box;
                 font-weight: 700;
                 font-size: 14px;
                 text-align: center;
                 text-transform: uppercase;
                 color: #FFFFFF;
                 cursor: pointer;
+
+                &:hover {
+                    box-shadow: 0 0 20px 0 #4F9C2C;
+                }
             }
         }
 
@@ -64,12 +75,51 @@
 
             img {
                 margin-right: 10px;
+                transition: .3s;
+                cursor: pointer;
+
+                &:hover {
+                    transform: translateY(-10px)
+                }
             }
 
             p {
                 font-weight: 700;
                 font-size: 16px;
                 color: #8EE901;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .subscribe {
+        .subscribe__content {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .announce {
+                display: none;
+            }
+
+            .input__field {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                input {
+                    width: 40%;
+                }
+
+                button {
+                    width: 40%;
+                }
+            }
+
+            .phone__call {
+                display: none;
             }
         }
     }

@@ -675,6 +675,13 @@ header .header__content .carts a span {
 }
 .subscribe .subscribe__content .announce img {
   margin-right: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.subscribe .subscribe__content .announce img:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 .subscribe .subscribe__content .announce p {
   width: 153px;
@@ -710,12 +717,18 @@ header .header__content .carts a span {
   background: #4F9C2C;
   outline: 0;
   border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-weight: 700;
   font-size: 14px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
   cursor: pointer;
+}
+.subscribe .subscribe__content .input__field button:hover {
+  -webkit-box-shadow: 0 0 20px 0 #4F9C2C;
+          box-shadow: 0 0 20px 0 #4F9C2C;
 }
 .subscribe .subscribe__content .phone__call {
   display: -webkit-box;
@@ -727,6 +740,13 @@ header .header__content .carts a span {
 }
 .subscribe .subscribe__content .phone__call img {
   margin-right: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.subscribe .subscribe__content .phone__call img:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 .subscribe .subscribe__content .phone__call p {
   font-weight: 700;
@@ -734,6 +754,40 @@ header .header__content .carts a span {
   color: #8EE901;
 }
 
+@media only screen and (max-width: 1200px) {
+  .subscribe .subscribe__content {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .subscribe .subscribe__content .announce {
+    display: none;
+  }
+  .subscribe .subscribe__content .input__field {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribe .subscribe__content .input__field input {
+    width: 40%;
+  }
+  .subscribe .subscribe__content .input__field button {
+    width: 40%;
+  }
+  .subscribe .subscribe__content .phone__call {
+    display: none;
+  }
+}
 @media only screen and (max-width: 600px) {
   .subscribe .subscribe__content {
     width: 100%;
@@ -852,6 +906,55 @@ footer .footer__content section {
   width: 251px;
 }
 
+@media only screen and (max-width: 1200px) {
+  footer {
+    width: 100%;
+  }
+  footer .footer__content {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer__content ul {
+    display: none;
+  }
+  footer .footer__content .sm-icons2 {
+    width: 50%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .footer__content .sm-icons2 img {
+    width: 40px;
+  }
+  footer .footer__content .cardsBank {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 50%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .footer__content .cardsBank img {
+    width: 60px;
+  }
+}
 @media only screen and (max-width: 600px) {
   footer {
     width: 100%;
